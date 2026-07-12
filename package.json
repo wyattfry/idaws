@@ -1,0 +1,11 @@
+{
+  "name": "kids-start-page",
+  "version": "1.0.0",
+  "description": "A Poki-style start page of edifying websites for kids.",
+  "type": "module",
+  "scripts": {
+    "shots": "node src/shots.mjs",
+    "build": "node src/build.mjs"
+  },
+  "license": "MIT"
+}
