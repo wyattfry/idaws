@@ -6,7 +6,7 @@
       "emoji": "🎮",
       "items": [
         { "title": "Shooter Game", "url": "https://wyattfry.github.io/shooter-game", "emoji": "🖌️", "desc": "2D Shooter game with single and multiplayer" },
-        { "title": "Escape The Facility", "url": "https://wyattfry.github.io/the-facility-game", "emoji": "🖌️", "desc": "Raytraced 3D escape game" },
+        { "title": "The Facility", "url": "https://wyattfry.github.io/the-facility", "emoji": "🖌️", "desc": "Raytraced 3D escape game" },
         { "title": "Shmup 2", "url": "https://wyattfry.github.io/shmup", "emoji": "🖌️", "desc": "New take on the vertical shooter for Phaser" }
       ]
     }

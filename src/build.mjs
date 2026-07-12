@@ -27,10 +27,10 @@ const exists = (p) =>
 async function tile(item) {
   const c = colorFor(item.title);
   const b = colorFor(item.category);
-  const shot = `shots/${slug(item.title)}.png`;
+  const shot = `shots/${slug(item.title)}.webm`;
   const hasShot = await exists(join(root, shot));
   const thumb = hasShot
-    ? `<span class="tile-shot" style="background-image:url('${esc(shot)}')"></span>`
+    ? `<video class="tile-shot" src="${esc(shot)}" autoplay loop muted playsinline></video>`
     : `<span class="tile-shot tile-shot--placeholder"><span class="tile-emoji">${esc(item.emoji || "🔗")}</span></span>`;
   return `      <a class="tile" href="${esc(item.url)}" style="--bg:${c.bg};--fg:${c.fg};--accent:${c.accent}"${item.desc ? ` title="${esc(item.desc)}"` : ""
     }>

@@ -70,6 +70,8 @@
       background-size: cover;
       background-position: top center;
       background-color: #fff;
+      object-fit: cover;
+      object-position: top center;
     }
 
     .tile-shot--placeholder {
