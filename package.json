@@ -1,7 +1,7 @@
 {
-  "name": "kids-start-page",
+  "name": "idaws",
   "version": "1.0.0",
-  "description": "A Poki-style start page of edifying websites for kids.",
+  "description": "A Poki-style start page of idaws.",
   "type": "module",
   "scripts": {
     "shots": "node src/shots.mjs",
