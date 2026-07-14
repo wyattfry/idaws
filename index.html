@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>idaws</title>
   <meta name="description" content="idaws" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
   <style>
     :root {
       --gap: 1.25rem;
@@ -29,13 +30,22 @@
       padding: 2.5rem 1rem 1.5rem;
     }
 
-    header h1 {
-      margin: 0;
-      font-size: clamp(2rem, 6vw, 3rem);
-      background: linear-gradient(90deg, #6d5dfc, #ef6eae);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+    header .logo {
+      display: inline-block;
+      width: clamp(140px, 22vw, 220px);
+      height: auto;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
     }
 
     main {
@@ -141,7 +151,8 @@
 </head>
 <body>
   <header>
-    <h1>idaws</h1>
+    <img class="logo" src="assets/logo.png" alt="idaws" />
+    <h1 class="sr-only">idaws</h1>
   </header>
   <main>
     <div class="grid">

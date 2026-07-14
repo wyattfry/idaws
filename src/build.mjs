@@ -55,13 +55,15 @@ const html = `<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${esc(data.title)}</title>
   <meta name="description" content="${esc(data.tagline || data.title)}" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
   <style>
 ${css}
   </style>
 </head>
 <body>
   <header>
-    <h1>${esc(data.title)}</h1>
+    <img class="logo" src="assets/logo.png" alt="${esc(data.title)}" />
+    <h1 class="sr-only">${esc(data.title)}</h1>
   </header>
   <main>
     <div class="grid">
