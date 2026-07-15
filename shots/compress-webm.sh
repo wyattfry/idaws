@@ -4,7 +4,7 @@ set -euo pipefail
 SRC="${1:-$HOME/Videos/Screencasts/the-facility.webm}"
 OUT_DIR="${2:-$HOME/idaws/shots}"
 NAME="$(basename "${SRC%.*}")"
-OUT="$OUT_DIR/${NAME}-compressed.webm"
+OUT="$OUT_DIR/${NAME}.webm"
 
 mkdir -p "$OUT_DIR"
 
