@@ -5,11 +5,13 @@
       "name": "Games",
       "emoji": "🎮",
       "items": [
-        { "title": "Vortex", "url": "/vortex/", "emoji": "✨", "desc": "Create a spellcaster and survive waves with 15 kinds of magic" },
+        { "title": "Vortex", "url": "https://wyattfry.github.io/vortex/", "emoji": "✨", "desc": "Create a spellcaster and survive waves with 15 kinds of magic" },
         { "title": "Shooter Game", "url": "https://wyattfry.github.io/shooter-game", "emoji": "🎯", "desc": "2D Shooter game with single and multiplayer" },
         { "title": "Forest Survival", "url": "https://wyattfry.github.io/forest-survival", "emoji": "🌲", "desc": "Survive in the forest" },
         { "title": "The Facility", "url": "https://wyattfry.github.io/the-facility-game", "emoji": "🏢", "desc": "Raytraced 3D escape game" },
-        { "title": "Shmup 2", "url": "https://wyattfry.github.io/shmup", "emoji": "✈️", "desc": "New take on the vertical shooter for Phaser" }
+        { "title": "Shmup 2", "url": "https://wyattfry.github.io/shmup", "emoji": "✈️", "desc": "New take on the vertical shooter for Phaser" },
+        { "title": "Mech Battles", "url": "#", "emoji": "🤖", "desc": "COMING SOON" }
+
       ]
     }
   ]
