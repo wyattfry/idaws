@@ -71,7 +71,7 @@ ${tiles}
     </div>
   </main>
   <footer>
-    <p>${items.length} places to explore · edit <code>data/links.json</code>, then run <code>npm run shots</code> &amp; <code>npm run build</code>.</p>
+    <p class="footer-text">Source at <a href="https://github.com/wyattfry/idaws" target="_blank" rel="noopener">/wyattfry</a></p>
   </footer>
 </body>
 </html>
